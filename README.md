@@ -95,25 +95,43 @@ Maven
 
 ## 📌 Expected Console Output
 
+
 ===================================
+
 Airline Check-In Details:
+
 ===================================
+
 
 Passenger ID     : 8742
+
 Passenger Name   : Meera Joshi
+
 Flight No        : AI-203
 
+
+
 Seat Preferences : [Window, Extra Legroom]
+
 Baggage Weights  : 12.5 7.8
+
 Special Help     : [Wheelchair, Priority Boarding]
 
+
+
 Meal Choices     :
+
    veg = Asian Vegetarian
+   
    drink = Orange Juice
+   
    dessert = Chocolate Mousse
 
+
 Travel History   :
+
    2022 = 3
+   
    2023 = 5
 
 ---
@@ -140,26 +158,47 @@ Ensures all sections print correctly
 
 ## 📦 Maven Dependencies
 
+
 <!-- Lombok -->
+
 <dependency>
-    <groupId>org.projectlombok</groupId>
+
+  <groupId>org.projectlombok</groupId>
+  
     <artifactId>lombok</artifactId>
+    
     <version>1.18.30</version>
+    
     <scope>provided</scope>
+
 </dependency>
+
+
 
 <!-- Spring Boot Configuration Processor -->
+
 <dependency>
-    <groupId>org.springframework.boot</groupId>
+
+  <groupId>org.springframework.boot</groupId>
+  
     <artifactId>spring-boot-configuration-processor</artifactId>
+    
     <optional>true</optional>
+
 </dependency>
 
+
+
 <!-- JUnit Jupiter -->
+
 <dependency>
-    <groupId>org.junit.jupiter</groupId>
+
+  <groupId>org.junit.jupiter</groupId>
+  
     <artifactId>junit-jupiter</artifactId>
+    
     <scope>test</scope>
+
 </dependency>
 
 
